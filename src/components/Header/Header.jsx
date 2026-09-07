@@ -1,14 +1,17 @@
 import styles from './Header.module.css';
-function Header() {
+import Nav from '../Nav/Nav';
+
+function Header({ articleCount }) {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <h1 className={styles.title}>React Blog</h1>
-        <nav className={styles.nav}>
-          <a href="#" className={styles.link}>Главная</a>
-          <a href="#" className={styles.link}>Статьи</a>
-          <a href="#" className={styles.link}>О нас</a>
-        </nav>
+
+        <span className={styles.count}>
+          Статей: {articleCount}
+        </span>
+
+        <Nav />
       </div>
     </header>
   );

@@ -45,6 +45,7 @@ const articles = [
     tag: 'Вёрстка',
     image: 'https://picsum.photos/seed/flex5/400/250'
   },
+  
   {
     id: 6,
     title: 'Git для фронтендера',
@@ -53,6 +54,25 @@ const articles = [
     date: '2 апреля 2026',
     tag: 'Git',
     image: 'https://picsum.photos/seed/git6/400/250'
-  }
+  },
+  
+{
+  id: 7,
+  title: 'Компоненты в React',
+  excerpt: 'Разбираемся, как создавать, использовать и переиспользовать компоненты в React-приложении.',
+  author: 'Елена Соколова',
+  date: '5 апреля 2026',
+  tag: 'React',
+  image: 'https://picsum.photos/seed/react-components/400/250'
+},
+{
+  id: 8,
+  title: 'Работа с API',
+  excerpt: 'Учимся получать данные с сервера и выводить их в интерфейсе React-приложения.',
+  author: 'Алексей Орлов',
+  date: '8 апреля 2026',
+  tag: 'API',
+  image: 'https://picsum.photos/seed/react-api/400/250'
+},
 ];
 export default articles;

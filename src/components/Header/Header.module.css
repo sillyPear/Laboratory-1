@@ -12,23 +12,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .title {
   color: #fff;
   font-size: 1.5rem;
-}
-
-.nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.link {
-  color: #e0e7ff;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
-}
-
-.link:hover {
-  color: #fff;
 }
